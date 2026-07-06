@@ -85,11 +85,11 @@ Published open-access in *Frontiers in Psychology* (CC BY). DOI resolves to the 
 Referenced across the skill files:
 
 - Ries, E. (2011). *The Lean Startup.* Crown Business.
-- Blank, S. (2020). *The Four Steps to the Epiphany.* K & S Ranch.
-- Dorf, B., & Blank, S. (2018). *The Startup Owner's Manual.* K & S Ranch.
+- Blank, S. (2013). *The Four Steps to the Epiphany* (2nd ed.). K&S Ranch.
+- Blank, S., & Dorf, B. (2012). *The Startup Owner's Manual.* K&S Ranch.
 - Blank, S. (2013). Why the lean start-up changes everything. *Harvard Business Review*, 91, 64–72.
-- Bostrom, A. (2022). *Assumption-Based Planning.* CRC Press.
-- Mann, J. (2013). *Research Methods for Business Students.* Pearson.
+- Dewar, J. A. (2002). *Assumption-Based Planning: A Tool for Reducing Avoidable Surprises.* Cambridge University Press.
+- Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research Methods for Business Students* (8th ed.). Pearson.
 
 ---
 

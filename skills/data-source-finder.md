@@ -236,10 +236,10 @@ For any other country: search "[country] national statistics office" — most pu
 ### Google Search Operators
 
 ```
-site:.gov "market size" "semiconductors" 2024   # Government sources
-site:.int OR site:.org "industry report" 2024   # Intl orgs / NGOs
+site:.gov "market size" "semiconductors" [year] # Government sources
+site:.int OR site:.org "industry report" [year] # Intl orgs / NGOs
 filetype:pdf "annual report" [industry]         # PDF reports only
-"[industry] market" size 2024 -2023 -2022       # Recent only
+"[industry] market" size [year]                 # Add -[prior years] to exclude stale results
 intitle:"market research" [industry]            # In title
 "[keyword]" -pinterest -quora                   # Exclude low-signal domains
 ```
