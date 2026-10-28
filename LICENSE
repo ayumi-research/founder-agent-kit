@@ -33,7 +33,7 @@ exhaustive, and do not form part of our licenses.
      material not subject to the license. This includes other CC-
      licensed material, or material used under an exception or
      limitation to copyright. More considerations for licensors:
-	wiki.creativecommons.org/Considerations_for_licensors
+    wiki.creativecommons.org/Considerations_for_licensors
 
      Considerations for the public: By using one of our public
      licenses, a licensor grants the public permission to use the
@@ -48,9 +48,9 @@ exhaustive, and do not form part of our licenses.
      rights in the material. A licensor may make special requests,
      such as asking that all changes be marked or described.
      Although not required by our licenses, you are encouraged to
-     respect those requests where reasonable. More_considerations
+     respect those requests where reasonable. More considerations
      for the public:
-	wiki.creativecommons.org/Considerations_for_licensees
+    wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
@@ -61,8 +61,8 @@ to be bound by the terms and conditions of this Creative Commons
 Attribution 4.0 International Public License ("Public License"). To the
 extent this Public License may be interpreted as a contract, You are
 granted the Licensed Rights in consideration of Your acceptance of
-these terms and conditions, and the Licensor grants You such rights
-in consideration of benefits the Licensor receives from making the
+these terms and conditions, and the Licensor grants You such rights in
+consideration of benefits the Licensor receives from making the
 Licensed Material available under these terms and conditions.
 
 
@@ -190,11 +190,11 @@ Section 2 -- Scope.
 
        1. Moral rights, such as the right of integrity, are not
           licensed under this Public License, nor are publicity,
-          privacy, and/or other similar personality rights; however,
-          to the extent possible, the Licensor waives and/or agrees
-          not to assert any such rights held by the Licensor to the
-          limited extent necessary to allow You to exercise the
-          Licensed Rights, but not otherwise.
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
 
        2. Patent and trademark rights are not licensed under this
           Public License.
@@ -245,14 +245,18 @@ following conditions.
 
        2. You may satisfy the conditions in Section 3(a)(1) in any
           reasonable manner based on the medium, means, and context in
-          which You Share the Licensed Material. For example, it may
-          be reasonable to satisfy the conditions by providing a URI or
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
           hyperlink to a resource that includes the required
           information.
 
        3. If requested by the Licensor, You must remove any of the
           information required by Section 3(a)(1)(A) to the extent
           reasonably practicable.
+
+       4. If You Share Adapted Material You produce, the Adapter's
+          License You apply must not prevent recipients of the Adapted
+          Material from complying with this Public License.
 
 
 Section 4 -- Sui Generis Database Rights.
@@ -347,34 +351,27 @@ Section 7 -- Other Terms and Conditions.
 
 Section 8 -- Interpretation.
 
-  a. For the avoidance of doubt to the extent that this Public License
-     may be interpreted as a contract:
+  a. For the avoidance of doubt, this Public License does not, and
+     shall not be interpreted to, reduce, limit, restrict, or impose
+     conditions on any use of the Licensed Material that could lawfully
+     be made without permission under this Public License.
 
-       1. the deployment of this Public License is governed by the
-          laws of the Licensor's principal place of business and
-          disputes arising under this Public License shall be
-          resolved in the courts there;
+  b. To the extent possible, if any provision of this Public License is
+     deemed unenforceable, it shall be automatically reformed to the
+     minimum extent necessary to make it enforceable. If the provision
+     cannot be reformed, it shall be severed from this Public License
+     without affecting the enforceability of the remaining terms and
+     conditions.
 
-       2. the UN Convention on Contracts for the International Sale of
-          Goods is hereby excluded;
+  c. No term or condition of this Public License will be waived and no
+     failure to comply consented to unless expressly agreed to by the
+     Licensor.
 
-       3. the choice of law and court provision here shall not prevent
-          You from seeking remedies in a court that has jurisdiction
-          over the Licensor or its assets;
+  d. Nothing in this Public License constitutes or may be interpreted
+     as a limitation upon, or waiver of, any privileges and immunities
+     that apply to the Licensor or You, including from the legal
+     processes of any jurisdiction or authority.
 
-       4. the law of the Licensor's principal place of business shall
-          govern to the exclusion of all other conflicting laws,
-          whether the governance of this Public License is framed in
-          terms of contract, tort, or otherwise;
-
-       5. the Berne Convention for the Protection of Literary and
-          Artistic Works, as well as all other international
-          conventions to which the Licensor is a party; and
-
-       6. this Public License shall be governed as a civil matter
-          under applicable law, not as an administrative or regulatory
-          matter, and shall be construed and applied in a manner that
-          is consistent with its status as a civil matter.
 
 =======================================================================
 
@@ -396,3 +393,4 @@ the avoidance of doubt, this paragraph does not form part of the
 public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
+

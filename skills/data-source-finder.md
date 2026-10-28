@@ -108,7 +108,7 @@ For any other country: search "[country] national statistics office" — most pu
 |--------|----------|
 | SEC EDGAR | US-listed companies — 10-Ks, 10-Qs, S-1s |
 | Companies House | UK-registered companies |
-| BRIS (EU e-Justice) — interconnected national business registers | EU member states |
+| BRIS via EU e-Justice (interconnected national registers, EU/EEA) | EU + EEA countries |
 | SEDAR+ | Canadian public companies |
 | TDnet / EDINET | Japan |
 | Company investor relations pages | Globally — annual reports, presentations |
@@ -194,7 +194,7 @@ For any other country: search "[country] national statistics office" — most pu
 | "Is this trend real?" | Tier 2 + Tier 3 | Cross-reference 3+ independent sources |
 | "What's the regulation?" | Tier 2 (regulator sources) | Official regulator websites for the jurisdiction |
 | "How fast is the market growing?" | Tier 2 + Tier 3 | Pull 3+ years of trend data |
-| "What's a normal churn/retention rate?" | Tier 5 | OpenView, ChartMogul, SaaS benchmark reports |
+| "What's a normal churn/retention rate?" | Tier 5 | High Alpha SaaS Benchmarks, ChartMogul, OpenView-era SaaS benchmark reports |
 | "How much does a startup like mine raise?" | Tier 4 (Crunchbase, PitchBook, Dealroom) | Filter by stage, vertical, geography |
 
 ---

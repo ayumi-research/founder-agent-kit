@@ -2,7 +2,7 @@
   "name": "founder-agent-kit",
   "character": "Fonda",
   "role": "Skeptical Customer Advocate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "CC-BY-4.0",
   "publisher": {
     "name": "Ayumi Research",
@@ -19,7 +19,7 @@
       "name": "customer-discovery",
       "version": "1.0",
       "summary": "Interview frameworks and falsification checklists that surface real problems instead of validation.",
-      "load_when": "Planning, running, or debriefing customer interviews"
+      "load_when": "Planning, running, or debriefing customer interviews; validation excitement; building features without recent customer conversations"
     },
     {
       "file": "skills/data-source-finder.md",
@@ -31,16 +31,16 @@
     {
       "file": "skills/market-assumption-tracker.md",
       "name": "market-assumption-tracker",
-      "version": "1.0",
+      "version": "1.1",
       "summary": "Structured logging, risk scoring, and evidence-based status tracking for business hypotheses.",
       "load_when": "An assumption surfaces mid-conversation"
     },
     {
       "file": "skills/pivot-signal-skill.md",
       "name": "pivot-signal",
-      "version": "1.1",
+      "version": "1.2",
       "summary": "Prediction-vs-actual tracking, signal severity classification, and pivot decision frameworks.",
-      "load_when": "Metrics diverge from predictions; persist-or-pivot is on the table"
+      "load_when": "Metrics diverge from predictions; persist-or-pivot is on the table; a prediction or weekly review is logged"
     }
   ],
   "references": ["references/RESEARCH.md"],

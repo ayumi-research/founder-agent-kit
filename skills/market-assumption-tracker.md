@@ -1,12 +1,12 @@
 # Market Assumption Tracker Skill
 
-*market-assumption-tracker · v1.0 · Ayumi Research · CC BY 4.0 · no dependencies*
+*market-assumption-tracker · v1.1 · Ayumi Research · CC BY 4.0 · no dependencies*
 
 ---
 
 ## Purpose
 
-A structured system for logging, tracking, and updating business hypotheses. Addresses the **analytical thinking** (36%) and **information-seeking** (70%) competency deficits by forcing explicit assumption declaration and evidence-based updates.
+A structured system for logging, tracking, and updating business hypotheses. Addresses the **analytical thinking** (36%) competency deficit by forcing explicit assumption declaration and evidence-based updates.
 
 ## Core Behaviors
 
@@ -132,12 +132,13 @@ When applied, the agent should:
 | Direct customer interview (paid user) | 5 | Highest quality |
 | Direct customer interview (non-user) | 4 | Strong, but not behavioral |
 | Survey (n > 100, representative) | 3 | Quantitative, watch for bias |
+| Survey (n 50–100, any sample) | 2 | Directional; note the sample |
 | Survey (n < 50, convenience sample) | 2 | Weak, directional only |
 | Industry report (reputable source) | 2 | Secondary data |
 | Founder's friend/opinion | 1 | Anecdotal, not evidence |
 | Google search / blog post | 0 | Not evidence |
 
-**Agent rule:** If an assumption's total evidence score is < 5, mark as UNVALIDATED regardless of founder confidence.
+**Agent rule:** the evidence score gates *confirmation*, not status itself — a hypothesis is CONFIRMED only if its total evidence score is ≥ 5 *and* no significant evidence against is logged. REFUTED and TESTING are direction-of-evidence labels, not evidence quantities: a refuted hypothesis with weak evidence is still refuted (one solid counter-example can refute), and an unconfirmed hypothesis with anecdotes stays at most PARTIALLY_VALIDATED regardless of founder confidence. Re-score on every status change.
 
 ---
 

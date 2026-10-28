@@ -109,8 +109,12 @@ Referenced across the skill files:
 **Why these four skills?**
 - Customer Discovery — operationalizes Customer Service Orientation (trait #2, 66% deficit)
 - Data Source Finder — operationalizes Information-Seeking (trait #1, 70% deficit)
-- Market Assumption Tracker — operationalizes Analytical Thinking and Flexibility (traits #3 & #4, 36% each)
-- Pivot Signal — operationalizes Flexibility (trait #4) and Business Model Literacy (trait #5, 38%)
+- Market Assumption Tracker — operationalizes Analytical Thinking (trait #3, 36% deficit)
+- Pivot Signal — operationalizes Flexibility (trait #4, 36%) and Business Model Literacy (trait #5, 38%)
+
+Mapping rule: one primary competency per skill; secondary overlaps (e.g. flexibility also shows up in the tracker's status discipline) are secondary, not load-bearing.
+
+**Scope of the evidence:** all deficit percentages describe one 50-failure sample (Szathmári et al., 2024, Results/Table 2) — they motivate the design; they are not universal prevalence claims.
 
 ---
 

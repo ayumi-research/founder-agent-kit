@@ -1,12 +1,12 @@
 # Pivot Signal Skill
 
-*pivot-signal · v1.1 · Ayumi Research · CC BY 4.0 · recommends: market-assumption-tracker*
+*pivot-signal · v1.2 · Ayumi Research · CC BY 4.0 · recommends: market-assumption-tracker*
 
 ---
 
 ## Purpose
 
-Monitors key metrics and assumptions for divergence signals that indicate a pivot may be needed. Addresses the **flexibility** (36%) and **analytical thinking** (36%) competency deficits by surfacing evidence-based pivot triggers before the team is too invested to change direction.
+Monitors key metrics and assumptions for divergence signals that indicate a pivot may be needed. Addresses the **flexibility** (36%) and **business model literacy** (38%) competency deficits by surfacing evidence-based pivot triggers before the team is too invested to change direction.
 
 ## Core Behaviors
 
@@ -32,6 +32,8 @@ When applied, the agent should:
 
 ## Key Metrics to Track
 
+> **Calibration note:** all thresholds in this section are unsourced heuristics calibrated for self-serve / B2C or SMB motions. Enterprise and sales-led B2B businesses look different: day-7 retention is often near-meaningless, monthly churn > 5% would be alarming where annual *logo* churn is the tracked figure, and long sales cycles stretch every response time. Re-derive them from your own cohort data as soon as you have 2+ months of it.
+
 ### Validation Metrics (Pre-Revenue)
 
 | Metric | Warning Threshold | Pivot Signal |
@@ -42,8 +44,6 @@ When applied, the agent should:
 | Willingness to pay | < 10% offer to pay/pre-order | Pricing or value issue |
 
 ### Traction Metrics (Post-Launch)
-
-> **Calibration note:** the thresholds below assume a self-serve / B2C or SMB motion (activation and consumer-style retention curves). Enterprise and sales-led B2B businesses look different: day-7 retention is often near-meaningless, monthly churn > 5% would be alarming where annual *logo* churn is the tracked figure, and long sales cycles stretch every response time. Treat these as defaults for self-serve products — re-derive them from your own cohort data as soon as you have 2+ months of it.
 
 | Metric | Warning Threshold | Pivot Signal |
 |--------|------------------|--------------|
@@ -160,7 +160,7 @@ Option C: Pivot (major direction change)
 | Founder says "just need more time" | "How much more? What specifically will change?" |
 | Founder cites sunk costs | "Sunk costs don't determine future success. The data does." |
 | Team avoiding the conversation | "We've been here 3 weeks. Decision needed." |
-| Customer churn > acquisition | "Negative growth. What's the plan?" |
+| Logo churn exceeds new-customer count in the same period | "Negative growth. What's the plan?" |
 
 ---
 
@@ -197,13 +197,15 @@ Option C: Pivot (major direction change)
 
 | From | To | Example |
 |------|-----|---------|
-| **Zoom-in** | Feature becomes whole product | Dropbox started as feature of larger sync tool |
-| **Zoom-out** | Product becomes feature of larger solution | PayPal became part of eBay ecosystem |
-| **Customer Segment** | Different audience for same product | Instagram: game → photo sharing |
+| **Zoom-in** | Feature becomes whole product | A workflow feature of a suite gets spun out as its own product |
+| **Zoom-out** | Product becomes feature of larger solution | A standalone tool gets folded in as one feature of a broader platform |
+| **Customer Segment** | Same product, different audience | A tool built for agencies finds its real traction with in-house teams |
 | **Problem** | Same solution, different problem | Slack: game chat → team communication |
-| **Technology** | Same problem, different approach | Google: web search → everything else |
+| **Technology** | Same problem, different approach | A rules-based matcher rebuilt on a fine-tuned model |
 | **Business Model** | Same product, different monetization | Adobe: boxed software → SaaS |
-| **Channel** | Same product, different distribution | Salesforce: enterprise → SMB |
+| **Channel** | Same product, different distribution | A sales-led product adds self-serve signup and reverses the motion |
+
+*Examples are illustrative shapes, not citations — when a real pivot candidate appears, log it as a prediction and test it (see above).*
 
 ---
 

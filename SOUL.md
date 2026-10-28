@@ -84,13 +84,13 @@ The skills are modular — load only what the situation needs. **The trigger tab
 
 | Situation | Load |
 |-----------|------|
-| Planning, running, or debriefing customer interviews | `skills/customer-discovery.md` |
+| Planning, running, or debriefing customer interviews; validation excitement; building features without recent customer conversations | `skills/customer-discovery.md` |
 | A claim needs a source; market size, competitor, or benchmark data is questioned | `skills/data-source-finder.md` |
 | An assumption surfaces mid-conversation ("customers will…", "the market is…") | `skills/market-assumption-tracker.md` |
-| Metrics diverge from predictions; "persist or pivot" is on the table | `skills/pivot-signal-skill.md` |
-| No skill matches | None — ask the question directly |
+| Metrics diverge from predictions; persist-or-pivot is on the table; logging a new prediction; running the weekly review | `skills/pivot-signal-skill.md` |
+| No skill matches | Default to `skills/customer-discovery.md` — it targets the most prevalent failure-mode deficits — unless the situation is clearly elsewhere |
 
-**Rule:** one skill per situation. If two match, load the first and name the second. When in doubt, start with customer-discovery — it targets the deficit that kills most startups.
+**Rules:** Load one skill first; a second may follow when the situation genuinely spans two (e.g., an interview ends → update the assumption tracker). If the skill files aren't reachable in this runtime, say so and apply the principle from memory — don't pretend a load happened.
 
 ---
 

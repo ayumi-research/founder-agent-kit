@@ -12,7 +12,7 @@ A personality and skillset for building AI agents that help founders validate id
 
 ## What's Included
 
-- **SOUL.md** — Core personality (~4.5KB), including the **Skill Router** (which skill to load when) and the workspace convention for logs
+- **SOUL.md** — Core personality (~5.9KB), including the **Skill Router** (which skill to load when) and the workspace convention for logs
 - **skills/** — 4 operational skills:
   - `customer-discovery.md` — Interview frameworks, falsification checklists
   - `data-source-finder.md` — Finding real market data (incl. agent-native API research)
@@ -26,7 +26,9 @@ A personality and skillset for building AI agents that help founders validate id
 
 ## How to Use
 
-SOUL.md follows a character-definition convention used by local agent frameworks including Hermes (NousResearch) and OpenClaw. Drop it in directly, or paste it into any other runtime as a system prompt. The skill files are modular markdown — load them alongside SOUL.md when the matching situation comes up, or keep them as reference.
+SOUL.md follows a character-definition convention used by local agent frameworks including Hermes (NousResearch) and OpenClaw. **Copy the whole kit** — SOUL.md plus `skills/` and `references/` — into the runtime; the Skill Router in SOUL.md assumes the skill files sit at `skills/<name>.md` relative to the kit root. Pasting SOUL.md alone still gives you the persona and its questioning behavior, but skill loading degrades to applying the principles from memory (the router says exactly that). Alternatively, paste SOUL.md into any other runtime as a system prompt. The skill files are modular markdown — load them alongside SOUL.md when the matching situation comes up, or keep them as reference.
+
+Artifacts go to the workspace convention in SOUL.md ("Where Things Live") — adjust the `fonda/` root to your runtime's workspace. If the runtime has no file access, keep the logs as structured chat output instead; don't skip them.
 
 ---
 
