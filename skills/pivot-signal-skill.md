@@ -1,6 +1,6 @@
 # Pivot Signal Skill
 
-*pivot-signal · v1.0 · Ayumi Research · CC BY 4.0 · recommends: market-assumption-tracker*
+*pivot-signal · v1.1 · Ayumi Research · CC BY 4.0 · recommends: market-assumption-tracker*
 
 ---
 
@@ -42,6 +42,8 @@ When applied, the agent should:
 | Willingness to pay | < 10% offer to pay/pre-order | Pricing or value issue |
 
 ### Traction Metrics (Post-Launch)
+
+> **Calibration note:** the thresholds below assume a self-serve / B2C or SMB motion (activation and consumer-style retention curves). Enterprise and sales-led B2B businesses look different: day-7 retention is often near-meaningless, monthly churn > 5% would be alarming where annual *logo* churn is the tracked figure, and long sales cycles stretch every response time. Treat these as defaults for self-serve products — re-derive them from your own cohort data as soon as you have 2+ months of it.
 
 | Metric | Warning Threshold | Pivot Signal |
 |--------|------------------|--------------|

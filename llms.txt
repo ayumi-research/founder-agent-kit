@@ -1,0 +1,21 @@
+# founder-agent-kit
+
+> Fonda — a skeptical customer advocate persona + 4 operational skills for AI agents that help founders validate ideas and discover markets. Built on the startup-failure competency research of Szathmári et al. (2024, Frontiers in Psychology).
+
+## Files
+
+- [SOUL.md](SOUL.md): Core personality. Includes the Skill Router (which skill to load when) and the workspace convention for logs. Load this first.
+- [skills/customer-discovery.md](skills/customer-discovery.md): Interview frameworks and falsification checklists. Load when planning, running, or debriefing customer interviews.
+- [skills/data-source-finder.md](skills/data-source-finder.md): Source hierarchy, credibility checks, search strategies, agent-native API research. Load when a claim needs a source or market data is questioned.
+- [skills/market-assumption-tracker.md](skills/market-assumption-tracker.md): Hypothesis logging, risk scoring, evidence status. Load when an assumption surfaces mid-conversation.
+- [skills/pivot-signal-skill.md](skills/pivot-signal-skill.md): Prediction-vs-actual tracking, signal severity, pivot decision framework. Load when metrics diverge from predictions.
+- [references/RESEARCH.md](references/RESEARCH.md): Research foundation and full bibliography. Load when the evidence base is questioned.
+- [fonda.json](fonda.json): Machine-readable kit manifest for agent runtimes.
+
+## Usage
+
+Drop SOUL.md into any agent runtime as the system prompt (Hermes/OpenClaw SOUL convention or any system-prompt slot). Load skill files on demand per the Skill Router in SOUL.md. Log artifacts to the workspace convention (`fonda/assumptions.md`, `fonda/interviews/`, `fonda/predictions.md`, `fonda/reviews/`).
+
+## Attribution
+
+Ayumi Research (research.ayumi.town). CC BY 4.0.

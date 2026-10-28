@@ -1,6 +1,6 @@
 # Data Source Finder Skill
 
-*data-source-finder · v1.1 · Ayumi Research · CC BY 4.0 · no dependencies*
+*data-source-finder · v1.2 · Ayumi Research · CC BY 4.0 · no dependencies*
 
 ---
 
@@ -108,7 +108,7 @@ For any other country: search "[country] national statistics office" — most pu
 |--------|----------|
 | SEC EDGAR | US-listed companies — 10-Ks, 10-Qs, S-1s |
 | Companies House | UK-registered companies |
-| European Business Register | EU countries |
+| BRIS (EU e-Justice) — interconnected national business registers | EU member states |
 | SEDAR+ | Canadian public companies |
 | TDnet / EDINET | Japan |
 | Company investor relations pages | Globally — annual reports, presentations |
@@ -233,6 +233,14 @@ For any other country: search "[country] national statistics office" — most pu
 
 ## Search Strategies
 
+### Agent-Native Research (when you are the agent)
+
+The kit runs inside an AI agent — so also use the machine-readable doors, which are faster and more verifiable than page-scraping:
+
+- **Structured APIs over pages:** World Bank API, Eurostat API, SEC EDGAR full-text search (EDGAR's `efts.sec.gov`), Crossref/OpenAlex for verifying any citation's existence, authors, and year.
+- **Verify before repeating:** before citing a source in an assumption log, resolve its DOI/URL and confirm title + authors + date match the claim. A citation that doesn't resolve is a red flag, not a footnote.
+- **Provenance beats volume:** one primary API record with a stable URL outranks five AI-summarized pages.
+
 ### Google Search Operators
 
 ```
@@ -307,8 +315,8 @@ intitle:"market research" [industry]            # In title
 - Patent filings via Google Patents (R&D direction)
 
 **Startup benchmarks**
+- SaaS Benchmarks Report (High Alpha, with OpenView — annual)
 - CB Insights, Startup Genome, GEM reports
-- OpenView SaaS Benchmarks (annual)
 - First Round State of Startups
 - Y Combinator essays
 

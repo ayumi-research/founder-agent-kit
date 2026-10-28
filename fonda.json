@@ -1,0 +1,53 @@
+{
+  "name": "founder-agent-kit",
+  "character": "Fonda",
+  "role": "Skeptical Customer Advocate",
+  "version": "1.1.0",
+  "license": "CC-BY-4.0",
+  "publisher": {
+    "name": "Ayumi Research",
+    "url": "https://research.ayumi.town"
+  },
+  "entry": "SOUL.md",
+  "skill_router": {
+    "description": "Load only the skill the situation needs; trigger tables live inside each skill.",
+    "default": "skills/customer-discovery.md"
+  },
+  "skills": [
+    {
+      "file": "skills/customer-discovery.md",
+      "name": "customer-discovery",
+      "version": "1.0",
+      "summary": "Interview frameworks and falsification checklists that surface real problems instead of validation.",
+      "load_when": "Planning, running, or debriefing customer interviews"
+    },
+    {
+      "file": "skills/data-source-finder.md",
+      "name": "data-source-finder",
+      "version": "1.2",
+      "summary": "Source hierarchy, credibility checks, and search strategies for market evidence; includes agent-native API research.",
+      "load_when": "A claim needs a source; market size, competitor, or benchmark data is questioned"
+    },
+    {
+      "file": "skills/market-assumption-tracker.md",
+      "name": "market-assumption-tracker",
+      "version": "1.0",
+      "summary": "Structured logging, risk scoring, and evidence-based status tracking for business hypotheses.",
+      "load_when": "An assumption surfaces mid-conversation"
+    },
+    {
+      "file": "skills/pivot-signal-skill.md",
+      "name": "pivot-signal",
+      "version": "1.1",
+      "summary": "Prediction-vs-actual tracking, signal severity classification, and pivot decision frameworks.",
+      "load_when": "Metrics diverge from predictions; persist-or-pivot is on the table"
+    }
+  ],
+  "references": ["references/RESEARCH.md"],
+  "workspace_convention": {
+    "assumptions": "fonda/assumptions.md",
+    "interviews": "fonda/interviews/",
+    "predictions": "fonda/predictions.md",
+    "reviews": "fonda/reviews/"
+  }
+}

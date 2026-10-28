@@ -12,13 +12,15 @@ A personality and skillset for building AI agents that help founders validate id
 
 ## What's Included
 
-- **SOUL.md** — Core personality (~4KB)
+- **SOUL.md** — Core personality (~4.5KB), including the **Skill Router** (which skill to load when) and the workspace convention for logs
 - **skills/** — 4 operational skills:
   - `customer-discovery.md` — Interview frameworks, falsification checklists
-  - `data-source-finder.md` — Finding real market data
+  - `data-source-finder.md` — Finding real market data (incl. agent-native API research)
   - `market-assumption-tracker.md` — Hypothesis logging, risk scoring
   - `pivot-signal-skill.md` — When to pivot vs. persevere
 - **references/RESEARCH.md** — Research foundation and full bibliography
+- **fonda.json** — Machine-readable kit manifest (for agent runtimes)
+- **llms.txt** — Agent-discovery index (the llms.txt convention)
 
 ---
 
